@@ -19,10 +19,9 @@ li {
     flex-wrap: wrap;
 }
 
-
 .header__top,
 .header__menu   {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
 
@@ -33,3 +32,4 @@ li {
 
 .header__link {
     text-transform: uppercase;
+}
