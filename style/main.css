@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header__top, 
+.header__menu {
+    max-width: 1024px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header__top,
+.header__menu   {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__top {
+    margin-top: 20px;
+    padding-bottom: 20px; /*уточнить можно ли указівать*/
+}
+
+.header__link {
+    text-transform: uppercase;
+}
+
+img {
+    
+}
