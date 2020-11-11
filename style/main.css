@@ -39,6 +39,14 @@ ul {
 li {
     list-style: none;
 }
+ 
+/* HEADER */
+
+.header__nav {
+    background-color: #33cccc;
+    padding: 10px 0px;
+    /* height: 36px; */
+}
 
 .header__top, 
 .header__menu {
@@ -61,8 +69,13 @@ li {
 
 .header__link {
     text-transform: uppercase;
+    padding: 0 20px;
+    border-right: 1px solid;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
 }
-p, a {
+a {
     font-family: 'bebas-bold';
 }
 .header__search {
@@ -94,3 +107,11 @@ p, a {
     font-size: 30px;
     margin: 8px 0 0 16px;
 }
+.header__item:first-child .header__link{
+    padding-left: 0;
+}
+.header__item:last-child .header__link{
+    padding-right: 0;
+    border: none;
+}
+
